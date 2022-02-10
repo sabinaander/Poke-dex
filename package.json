@@ -1,0 +1,20 @@
+{
+  "name": "parse-test",
+  "version": "1.0.0",
+  "description": "Notes:\r - install mongodb via: npm install -g mongodb-runner\r - start mongodb via: mongodb-runner start \r - To make parse-server run, write : node index.js in terminal",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.2",
+    "parse": "^3.4.1",
+    "parse-server": "^4.10.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "cd client && npm run build",
+    "dashboard": "parse-dashboard --dev --appId myAppId --masterKey myMasterKey --serverURL \"http://localhost:8800/parse\" --appName optionalName"
+  },
+  "author": "",
+  "license": "ISC"
+}

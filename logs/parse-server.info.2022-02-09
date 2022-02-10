@@ -1,0 +1,10 @@
+{"address":"::","code":"EADDRINUSE","errno":-4091,"level":"error","port":8800,"syscall":"listen","timestamp":"2022-02-09T14:15:18.857Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2022-02-09T14:17:52.023Z"}
+{"level":"info","message":"Create new client: 0d93f279-4dc2-4290-bf07-aab8fbf85c31","timestamp":"2022-02-09T14:17:56.354Z"}
+{"level":"info","message":"Client disconnect: 0d93f279-4dc2-4290-bf07-aab8fbf85c31","timestamp":"2022-02-09T14:18:11.837Z"}
+{"level":"info","message":"Create new client: 09e380f2-76cf-4b3b-a0aa-98d413ca548e","timestamp":"2022-02-09T14:18:11.919Z"}
+{"level":"info","message":"Client disconnect: 09e380f2-76cf-4b3b-a0aa-98d413ca548e","timestamp":"2022-02-09T14:37:07.369Z"}
+{"level":"info","message":"Create new client: fe9d5b97-91a8-45b0-8db0-5ae71b24f33c","timestamp":"2022-02-09T14:37:07.456Z"}
+{"level":"info","message":"Client disconnect: fe9d5b97-91a8-45b0-8db0-5ae71b24f33c","timestamp":"2022-02-09T14:37:35.474Z"}
+{"level":"info","message":"Create new client: e574d1cb-878d-4237-b753-dc574600d2b9","timestamp":"2022-02-09T14:37:35.556Z"}
+{"level":"info","message":"Client disconnect: e574d1cb-878d-4237-b753-dc574600d2b9","timestamp":"2022-02-09T17:09:52.443Z"}
