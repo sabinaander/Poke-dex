@@ -9,3 +9,6 @@
 {"level":"info","message":"Create new client: c1d4d172-7940-446a-ad5a-3eb4645ce6e1","timestamp":"2022-02-10T08:27:31.710Z"}
 {"level":"info","message":"Client disconnect: c1d4d172-7940-446a-ad5a-3eb4645ce6e1","timestamp":"2022-02-10T08:28:46.086Z"}
 {"level":"info","message":"Create new client: 23189862-ae51-4f83-bd2a-6fa0e9837205","timestamp":"2022-02-10T08:28:46.180Z"}
+{"level":"info","message":"Client disconnect: 23189862-ae51-4f83-bd2a-6fa0e9837205","timestamp":"2022-02-10T09:49:19.084Z"}
+{"address":"::","code":"EADDRINUSE","errno":-4091,"level":"error","port":8800,"syscall":"listen","timestamp":"2022-02-10T09:55:58.668Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2022-02-10T09:57:01.692Z"}
