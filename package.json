@@ -8,12 +8,18 @@
     "parse": "^3.4.1",
     "parse-server": "^4.10.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "npm-watch": "^0.11.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "build": "cd client && npm run build",
-    "dashboard": "parse-dashboard --dev --appId myAppId --masterKey myMasterKey --serverURL \"http://localhost:8800/parse\" --appName optionalName"
+    "dashboard": "parse-dashboard --dev --appId myAppId --masterKey myMasterKey --serverURL \"http://localhost:8800/parse\" --appName optionalName",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": "client/src/"
   },
   "author": "",
   "license": "ISC"

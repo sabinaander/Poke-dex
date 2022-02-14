@@ -8,12 +8,16 @@ initializeParse(
 );
 
 import Button from './Button';
+import SomeComponent from '../SomeComponent';
 
 function App() {
   return (
     <div>
+      <SomeComponent />
       <Button></Button>
+      
     </div>
+    
   )
 }
 

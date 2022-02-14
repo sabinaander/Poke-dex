@@ -5,5 +5,17 @@ Notes:
 
 
 // run in root
-redraw: npm run build,
-on start: npm run dashboard , npm run start
+on start: 
+
+$ npm run dashboard 
+( to see backend and database, go to: http://localhost:4040/)
+
+$ npm run start
+
+$ npm run build  
+(redraw/start build)
+
+--- OR
+
+$ npm run watch
+(redraw/build automatically everything in client src on save)
