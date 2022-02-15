@@ -19,7 +19,10 @@
     "watch": "npm-watch"
   },
   "watch": {
-    "build": "client/src/"
+    "build": {
+      "patterns":["client/src/"],
+      "extensions": "js,jsx"
+    }
   },
   "author": "",
   "license": "ISC"

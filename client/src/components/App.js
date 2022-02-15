@@ -7,15 +7,16 @@ initializeParse(
   ''
 );
 
-import Button from './Button';
-import SomeComponent from '../SomeComponent';
+import SomeComponent from './SomeComponent';
+import { Cards } from './Cards';
+import { SearchField } from './SearchField';
+import PokeDex from './PokeDex';
 
 function App() {
   return (
     <div>
       <SomeComponent />
-      <Button></Button>
-      
+      <PokeDex />    
     </div>
     
   )
