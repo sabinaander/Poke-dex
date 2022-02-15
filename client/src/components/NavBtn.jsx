@@ -1,7 +1,7 @@
 export const NavBtn = (props) =>{
         return (
           <button onClick={props.onClick}>
-            Click Me!!!!!
+            {props.children}
           </button>
         );
     }

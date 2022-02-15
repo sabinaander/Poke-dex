@@ -22,7 +22,7 @@ class PokeDex extends React.Component {
     fetch("https://pokeapi.co/api/v2/pokemon?limit=500")
       .then((response) => response.json())
       .then((name) => this.setState({ pokemons: name.results }));
-      
+
   }
 
   handleChange = (searchedPokemon) => {
@@ -42,8 +42,6 @@ class PokeDex extends React.Component {
           placeholder="Search for a pokemon..."
           handleChange={this.handleChange}
         />
-
-        <NavBtn onClick={this.FetchPokemon} />
         <Cards pokemons={filteredPokemons}></Cards>
       </div>
     );

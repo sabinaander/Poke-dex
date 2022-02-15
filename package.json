@@ -21,7 +21,7 @@
   "watch": {
     "build": {
       "patterns":["client/src/"],
-      "extensions": "js,jsx"
+      "extensions": "js,jsx,css,html"
     }
   },
   "author": "",

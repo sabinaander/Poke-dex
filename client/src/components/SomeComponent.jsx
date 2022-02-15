@@ -21,25 +21,14 @@ const SomeComponent = () => {
       }
     );
   
-    // ReactDOM.render(
-    //     <React.StrictMode>
-    //       <App />
-    //     </React.StrictMode>,
-    //     // <SomeComponent />,
-    //     document.getElementById('root')
-    //   );
-  
     return (
       <div>
-        {isLoading && (
-          <p>Loading...</p>
+        <h2>My list of fave pokemon:</h2>
+
+        {(!results || !results.length) &&(
+          <p>You don't have any favorite Pokemon yet :C </p>
         )}
-        {isLive && (
-          <p>Live!</p>
-        )}
-        {isSyncing && (
-          <p>Syncing...</p>
-        )}
+
         {results && (
           <ul>
             {results.map(result => (
