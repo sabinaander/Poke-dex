@@ -22,7 +22,7 @@ const SomeComponent = () => {
     );
   
     return (
-      <div>
+      <div className='myPokemon'>
         <h2>My list of fave pokemon:</h2>
 
         {(!results || !results.length) &&(
@@ -43,11 +43,6 @@ const SomeComponent = () => {
         {error && (
           <p>{error.message}</p>
         )}
-        <button
-          onClick={reload}
-        >
-          Reload
-        </button>
       </div>
     );
   };

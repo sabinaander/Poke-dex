@@ -15,7 +15,6 @@ import PokeDex from './PokeDex';
 function App() {
   return (
     <div>
-      <SomeComponent />
       <PokeDex />    
     </div>
     

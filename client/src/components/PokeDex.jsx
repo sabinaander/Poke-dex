@@ -5,6 +5,7 @@ import "./App";
 import { Cards } from "./Cards";
 import { SearchField } from "./SearchField";
 import { NavBtn } from "./NavBtn";
+import SomeComponent from "./SomeComponent";
 
 class PokeDex extends React.Component {
   constructor(props) {
@@ -33,15 +34,18 @@ class PokeDex extends React.Component {
     const { pokemons, search } = this.state;
     const filteredPokemons = pokemons.filter((pokemon) =>
       pokemon.name.toLowerCase().includes(search.toLowerCase())
-    ).slice(0,10)
+    )
 
     return (
-      <div className="Pokemon">
+      <div className="main">
+          <div className="headerContainer">
         <h1>Welcome to the PokeDex!</h1>
+        <SomeComponent />
         <SearchField
           placeholder="Search for a pokemon..."
           handleChange={this.handleChange}
         />
+        </div>
         <Cards pokemons={filteredPokemons}></Cards>
       </div>
     );
