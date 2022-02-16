@@ -1,5 +1,5 @@
 import React from "react";
-import "./CardComponent.css";
+import "./style.css";
 import NavBtn from "./NavBtn";
 import pokeBall from "./Poke_Ball.png";
 

@@ -1,6 +1,5 @@
 import { render } from "react-dom";
 import React from "react";
-// import SomeComponent from '../SomeComponent';
 import "./App";
 import { Cards } from "./Cards";
 import { SearchField } from "./SearchField";

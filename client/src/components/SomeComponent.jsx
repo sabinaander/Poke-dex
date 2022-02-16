@@ -21,6 +21,7 @@ const SomeComponent = () => {
       }
     );
   
+    // list of objects in database
     return (
       <div className='myPokemon'>
         <h2>My list of fave pokemon:</h2>
