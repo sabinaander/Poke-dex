@@ -14,13 +14,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "build": "cd client && npm run build",
+    "build": "npm install && cd client && npm install && npm run build",
     "dashboard": "parse-dashboard --dev --appId myAppId --masterKey myMasterKey --serverURL \"http://localhost:8800/parse\" --appName optionalName",
     "watch": "npm-watch"
   },
   "watch": {
     "build": {
-      "patterns":["client/src/"],
+      "patterns": [
+        "client/src/"
+      ],
       "extensions": "js,jsx,css,html"
     }
   },
