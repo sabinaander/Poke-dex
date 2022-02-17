@@ -40,8 +40,7 @@ Add the class Pokemon under "Create a class",
 - - call it: name
 - - base value: empty
 - - requiered: yes
-
-- click "add column and continue.
+- - click "add column and continue.
 
 ### col 2:
 - - type: number
