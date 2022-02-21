@@ -23,19 +23,14 @@ const SomeComponent = () => {
   
     // list of objects in database
     return (
-      <div className='myPokemon'>
-        <h2>My list of fave pokemon:</h2>
-
-        {(!results || !results.length) &&(
-          <p>You don't have any favorite Pokemon yet :C </p>
-        )}
+      <div className='firstPage'>
+        <Log-In/>
 
         {results && (
           <ul>
             {results.map(result => (
               <li key={result.id}>
-                Name of pokemon: {result.get('name')}<br />
-                Dex ID:  {result.get('dexNumber')}
+                Welcome: {result.get('UserName')}!<br />
               </li>
             ))}
           </ul>
