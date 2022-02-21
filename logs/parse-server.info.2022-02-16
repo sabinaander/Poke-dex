@@ -36,3 +36,10 @@
 {"level":"info","message":"Create new client: db2e0fed-e6ed-499d-a451-eccb374f33ac","timestamp":"2022-02-16T13:25:31.287Z"}
 {"level":"info","message":"Client disconnect: db2e0fed-e6ed-499d-a451-eccb374f33ac","timestamp":"2022-02-16T15:45:25.252Z"}
 {"level":"info","message":"Create new client: 0af6b571-e626-44fc-852a-2eaf74bff54f","timestamp":"2022-02-16T15:45:30.734Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2022-02-16T16:10:30.961Z"}
+{"level":"info","message":"Create new client: 736bf8d4-c581-49a0-861c-34509a3ae7ae","timestamp":"2022-02-16T16:10:38.373Z"}
+{"level":"info","message":"Create new client: 36e382fc-ee07-4236-81b8-85d56ed7d4a8","timestamp":"2022-02-16T16:10:40.370Z"}
+{"level":"info","message":"Create new client: da086604-8183-47fd-8053-b242080c6679","timestamp":"2022-02-16T16:11:43.175Z"}
+{"level":"info","message":"Create new client: 1dcbfa0d-1dbb-4acc-9207-fa53a9062dbb","timestamp":"2022-02-16T16:11:53.080Z"}
+{"level":"info","message":"Client disconnect: 1dcbfa0d-1dbb-4acc-9207-fa53a9062dbb","timestamp":"2022-02-16T16:19:14.724Z"}
+{"level":"info","message":"Client disconnect: da086604-8183-47fd-8053-b242080c6679","timestamp":"2022-02-16T16:19:15.255Z"}
