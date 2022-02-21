@@ -8,27 +8,16 @@ initializeParse(
 );
 
 import SomeComponent from './SomeComponent';
-import { Posts } from './Posts';
+import { Cards } from './Cards';
 import { SearchField } from './SearchField';
-import SocialPage from './SocialPage';
-import { LogIn } from './LogIn';
-import Header from './Header'
+import PokeDex from './PokeDex';
 
 function App() {
-  let loggedIn = false
-
   return (
     <div>
-      <Header />
-
-      {!loggedIn &&
-        <LogIn />
-      }
-      {loggedIn &&
-        <SocialPage />
-      }
+      <PokeDex />    
     </div>
-
+    
   )
 }
 

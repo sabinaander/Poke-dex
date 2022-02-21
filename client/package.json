@@ -4,22 +4,12 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "react-scripts build",
-    "watch": "npm-watch build"
-  },
-  "watch": {
-    "build": {
-      "patterns": [
-        "client/src/"
-      ],
-      "extensions": "js,jsx,css,html"
-    }
+    "build": "react-scripts build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@parse/react": "0.0.1-alpha.17",
-    "npm-watch": "^0.11.0",
     "parse": "^3.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

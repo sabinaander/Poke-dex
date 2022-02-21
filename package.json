@@ -16,7 +16,15 @@
     "start": "node index.js",
     "build": "npm install && cd client && npm install && npm run build",
     "dashboard": "parse-dashboard --dev --appId myAppId --masterKey myMasterKey --serverURL \"http://localhost:8800/parse\" --appName optionalName",
-    "watch": "cd client && npm run watch"
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "client/src/"
+      ],
+      "extensions": "js,jsx,css,html"
+    }
   },
   "author": "",
   "license": "ISC"

@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'pokemon_solidnormal';
+    src: url('../fonts/pokemon_solid-webfont.woff2') format('woff2'),
+         url('../fonts/pokemon_solid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'groboldregular';
+    src: url('../fonts/grobold-webfont.woff2') format('woff2'),
+         url('../fonts/grobold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +25,7 @@
 a{
     color: black;
 }
-.post-container {
+.card-container {
     display: flex;
     flex-direction: column;
     background: #ffffff42;
@@ -19,7 +37,7 @@ a{
     padding: 2rem;
 }
 
-.post-container button {
+.card-container button {
     background-color: #fff700;
     margin-bottom: 2rem;
     border-radius: 0.5rem;
@@ -36,26 +54,26 @@ a{
     cursor: pointer;
 }
 
-.post-container button img {
+.card-container button img {
     height: 2vh;
     margin-top: 0;
 }
 
-.post-container h2 {
+.card-container h2 {
     text-align: center;
     z-index: 1;
 }
 
-.post-container img {
+.card-container img {
     max-width: 100%;
     margin-top: -80px;
     transition: transform .2s ease-in-out;
 }
-.post-container img:hover {
+.card-container img:hover {
     transform: scale(1.1);
 }
 
-.posts {
+.cards {
     display: grid;
     gap: 3rem;
     grid-template-columns: repeat(auto-fill,minmax(380px,1fr));
@@ -89,6 +107,26 @@ h1 {
     -webkit-text-stroke-width: 7px;
     -webkit-text-stroke-color: black;
     letter-spacing: 0.2rem;
+}
+
+.myPokemon {
+    padding: 2rem;
+    background: #9600ff21;
+    border-radius: 5rem;
+    margin-bottom: 6vh;
+}
+
+.myPokemon ul {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 6vh;
+}
+
+.myPokemon h2{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
 }
 
 .main {
